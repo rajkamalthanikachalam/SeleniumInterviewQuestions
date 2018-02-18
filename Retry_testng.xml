@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RetryFailedTestSuite" verbose="1" >
+ 
+ <listeners>
+        <listener class-name="com.qa.analyzer.RetryTransformer"/>
+  </listeners>
+  
+  <test name="RetryMulitpleFailedTestCases">
+    <classes>
+      <class name="TestNG_Annotations.RetryLogic_Class"/>
+    </classes>
+  </test>
+</suite>

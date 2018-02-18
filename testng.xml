@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNG">
+    
+   <parameter  name = "URL" value= "http://login.yahoo.com"/>
+   <parameter  name = "UserName" value= "rajkamal_08@yahoo.co.in"/>
+   
+    <classes>
+      <class name="TestNG_Annotations.TestNG_DataProvider"/>
+    </classes>
+ 
+  </test> <!-- TestNG -->
+</suite> <!-- Suite -->

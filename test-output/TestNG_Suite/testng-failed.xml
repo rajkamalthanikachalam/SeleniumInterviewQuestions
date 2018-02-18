@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG_Suite]">
+  <test name="TestNG(failed)">
+    <parameter name="UserName" value="rajkamal_08@yahoo.co.in"/>
+    <parameter name="URL" value="http://login.yahoo.com"/>
+    <classes>
+      <class name="TestNG_Annotations.TestNG_2">
+        <methods>
+          <include name="login"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNG_Annotations.TestNG_2 -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [TestNG_Suite] -->

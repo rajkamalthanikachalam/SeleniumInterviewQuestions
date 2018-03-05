@@ -49,6 +49,7 @@ WebDriver driver;
             changeColor(bgcolor, element,driver);//2
         }
     }
+	
     public static void changeColor(String color, WebElement element, WebDriver driver) {
     	JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].style.backgroundColor = '"+color+"'",  element);

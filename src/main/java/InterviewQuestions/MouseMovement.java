@@ -45,7 +45,7 @@ WebDriver driver;
 	public void waitFunctionality(){
 		
 		driver.get("https://www.instagram.com/?hl=en");
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.MILLISECONDS); //dynamic wait, it wont wait once page loaded before the tme mentioned
+		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.MILLISECONDS); //dynamic wait, it wont wait once page loaded before the time mentioned
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.MILLISECONDS); //static wait, wait until all elements loaded
 		
 		

@@ -114,6 +114,18 @@
 		</dependency>
 	
 	
+	<!-- Need to download for Phanthom JS headless browser along with .exe file-->
+	<dependency>
+	    <groupId>com.github.detro.ghostdriver</groupId>
+	    <artifactId>phantomjsdriver</artifactId>
+	    <version>1.0.1</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>3.12.0</version>
+</dependency>
 	
    </dependencies>
 </project>

@@ -62,6 +62,7 @@ WebDriver driver;
 		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
 	
 	}
+	
 	@Test(enabled = false)
 	//Explicit wait Function - dynamic wait , if element is visible before the mention time, it will proceed further instead waiting for all time
 	//Synchronization 
